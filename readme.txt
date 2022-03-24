@@ -9,3 +9,8 @@ like this: MONGO_COMPASS='mongodb+srv://yourName:@cluster0.uwez0.mongodb.net/you
 or like this: 
 
 MONGO_COMPASS_='mongodb://localhost:27017/yourDataBase'
+
+routes: 
+http://localhost:5000/api/v1/get-payments
+
+http://localhost:5000/api/v1/create-payment
