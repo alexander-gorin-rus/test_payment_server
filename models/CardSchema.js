@@ -10,7 +10,7 @@ const CardSchema = new mongoose.Schema({
         required: true,
     },
     ExpDate : {
-        type: Number,
+        type: String,
         required: true
     },
     CVV:{
