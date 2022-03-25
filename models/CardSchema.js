@@ -1,12 +1,16 @@
 const mongoose = require('mongoose');
 
 const CardSchema = new mongoose.Schema({
+    CardHolderName: {
+        type: String,
+        required: true
+    },
     CardNumber:{
         type: Number,
         required: true,
     },
     ExpDate : {
-        type: Date,
+        type: Number,
         required: true
     },
     CVV:{
